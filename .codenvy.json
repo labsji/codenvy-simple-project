@@ -24,12 +24,18 @@
             "envVariables":{
 
             },
+            "links":[
+
+            ]
           }
         ]
       }
     ],
     "projects":[
       {
+        "links":[
+
+        ],
         "name":"spring-petclinic",
         "attributes":{
           "maven.artifactId":[
