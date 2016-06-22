@@ -14,8 +14,8 @@
             "name":"ws-machine",
             "type":"docker",
             "source":{
-              "content":"FROM codenvy/debian_jdk8\nEXPOSE 9966",
-              "type":"dockerfile"
+              "location":"http://beta.codenvy.com/api/recipe/recipeq8ees4vc5nrtvpyl/script",
+              "type":"recipe"
             },
             "dev":true
           }
@@ -27,7 +27,7 @@
         "name":"spring-petclinic",
         "type":"maven",
         "path":"/spring-petclinic",
-        "description":"Spring Petclinic Application.",
+        "description":"A hello world Java application.",
         "mixins":[
           "pullrequest",
           "git"
@@ -76,6 +76,9 @@
         },
         "type":"mvn"
       }
+    ],
+    "links":[
+
     ]
   },
   "ide":{
