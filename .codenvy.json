@@ -76,7 +76,7 @@
         },
         "type":"mvn"
       }
-    ],
+    ]
   },
   "ide":{
     "onProjectsLoaded":{
